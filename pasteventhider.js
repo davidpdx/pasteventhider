@@ -15,7 +15,7 @@ var thisMonth = today.getMonth() + 1; //correct month number - m or mm
 //get day 1-31
 var thisDay = today.getDate();	//correct day number - d or dd
 
-//build array of month names, added 0 to match real month number to human number stating at 1 for jan
+//build array of month names, added 0 to match real month number to human number starting at 1 for jan
 var months = [0, 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
 
 //year loop
